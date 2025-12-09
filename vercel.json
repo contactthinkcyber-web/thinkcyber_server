@@ -11,12 +11,5 @@
       "src": "/(.*)",
       "dest": "src/app.js"
     }
-  ],
-  "env": {
-    "PGHOST": "@pghost",
-    "PGUSER": "@pguser",
-    "PGPASSWORD": "@pgpassword",
-    "PGDATABASE": "@pgdatabase",
-    "PGPORT": "@pgport"
-  }
+  ]
 }
