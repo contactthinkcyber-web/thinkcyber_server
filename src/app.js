@@ -235,3 +235,6 @@ app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 app.listen(app.get('port'), () => {
   console.log('Server on port ' + app.get('port'));
 });
+
+// Export the Express app for Vercel
+module.exports = app;
